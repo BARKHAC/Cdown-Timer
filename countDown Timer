@@ -1,0 +1,65 @@
+set *{
+	box-sizing: border-box;
+}
+
+body{
+	background-image:
+	font-family:
+	margin:0
+	padding:0
+	min-height:100vh;
+	background-size:cover;
+	background-position:center center;
+}
+
+create a div with class countdown-container
+within it hours-c div ,  paragraph class=big-text , span tag with hours
+do same for days , hours , mins , seconds
+
+in body{
+	display:flex
+	flex-direction:column
+	align-items:center;
+	justify-content:center
+}
+
+h1{
+	font-size:
+	margin-top:
+}
+
+.countdown-container{
+	display:flex
+}
+
+.big-text{
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
+}
+
+declare a class for all container elements eg: .countdown el
+
+.countdown el{
+	text-align: center;
+}
+
+.countdown-el span{
+	font-size: 2rem;
+}
+
+make container flex so that we can position easily
+
+app.js
+
+setInterval(countdown,1000);
+
+converting to seconds , minutes , hours , days
+
+const Totalseconds = (diffDate) /1000;
+const days = Math.floor(seconds/3600/24);
+const hours = Math.floor(seconds/3600) % 24;
+const minutes = Math.floor(seconds/60) %60;
+const seconds = Math.floor(totalSeconds) % 60;  //overflow , hence modulus
+
+define all elements and use innerHTML to write to them.
