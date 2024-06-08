@@ -1,4 +1,4 @@
-const futureDate = "31 August 2022";
+const futureDate = "07 September 2024";
 dayEL = document.getElementById('Days');
 hourEl =document.getElementById('Hours');
 minEl = document.getElementById('Minutes');
